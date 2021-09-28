@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey-Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1 id="title">Jahseed-Survey Form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform</p>
+			<form id="survey-form">
+				<div class="form-container">
+					<p>Name</p>
+					<input type="text" name="" placeholder="Enter Your Name" id="name-label" class="filled">
+
+					<p>Email</p>
+					<input type="email" name="" placeholder="Enter Your Email" id="email-label" class="filled">
+
+					<p>Number </p>
+					<input type="number" name="" placeholder="Enter Your Number" id="number-label" class="filled">
+
+					<p>Which Option describe your current role</p>
+					<select id="dropdown" class="filled">
+						<option value="">Click To Select</option>
+						<option value="Student">Student</option>
+						<option value="Full Time Job">Job</option>
+						<option value="Full Time Learner">Learner</option>
+						<option value="Prefer Not To Say">Not To Say</option>
+						<option value="Other">Other</option>
+					</select>
+
+					<p>What's Your Favorite Programming Language?</p>
+					<input type="radio" name="fav.language" value="JavaScript">
+					<label for="JavaScript" class="change-col">JavaScript</label><br>
+					<input type="radio" name="fav.language" value="PHP">
+					<label for="PHP" class="change-col">PHP</label><br>
+					<input type="radio" name="fav.language" value="Python">
+					<label for="Python" class="change-col">Python</label>
+					<br>
+					<br>
+					<p>What would you like to see improved? (Check all that apply)</p>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Front-end</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Back-end</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Data Visualization</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Chalenges</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Open Source Community</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Videos</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">City Meetups</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Wiki</label><br>
+					<input type="checkbox" name="" value="checked">
+					<label for="" class="change-col">Additional Courses</label><br>
+					<br>
+					<p>You can make your comment here :</p>
+					<!-- <input type="textarea " name="comment" placeholder="Make Your Comments" id="area"> -->
+					<textarea placeholder="Make Your Comments" id="area"></textarea>
+					<button id="submit" type="submit"><strong>Submint</strong></button>
+
+				</div>
+			</form>
+		
+	</div>
+</body>
+</html>

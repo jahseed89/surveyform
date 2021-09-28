@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(../image/programming.jpg);
+	background-size: cover;
+}
+
+
+.container {
+	border: 1px solid #000;
+
+}
+
+
+#title {
+	text-align: center;
+	margin-top: 10px;
+	font-family: Fraunces;
+	color: #fff;
+	font-size: 2em;
+}
+
+#description {
+	text-align: center;
+	color: #000;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	color: #fff;
+	/*font-family: italic;*/
+}
+
+#survey-form {
+	/*border: 1px solid #000;*/
+	width: 70%;
+	/*height: 100vh;*/
+	background-color: rgba(27, 27, 50, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 4px 2px 2px 4px;
+}
+
+.form-container {
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+p {
+	
+	color: #f3f3f3;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+	font-size: 1.0em
+}
+
+.filled {
+	width: 600px;
+	height: 35px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	border: none;
+}
+
+.change-col {
+	color: #fff;
+}
+
+#area {
+	width: 600px;
+	height: 100px;
+}
+
+#submit {
+	width: 600px;
+	height: 45px;
+	margin-top: 25px;
+	background: #7ade7a;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+}
